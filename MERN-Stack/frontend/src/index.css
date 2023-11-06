@@ -1,0 +1,136 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800&family=VT323\&display=Swap');
+/* layout */
+:root {
+--primary: #1aac83;
+--error: #e7195a;
+}
+body {
+background: #f1f1f1f1;
+margin: 0 ;
+font-family: "Poppins";
+}
+header {
+background:  #fff;
+}
+header .container {
+max-width: 1400px;
+margin: 0 auto;
+padding: 10px 20px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+header a {
+  color:#333;
+  text-decoration: none;
+  }
+  .pages {
+  width: 90% ;
+  padding: 20px;
+  margin: 0 auto;
+  }
+  
+
+
+  /* CSS Styles for WorkoutForm */
+
+.create {
+  width: 30%;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  float: right;
+}
+
+h3 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-input {
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-button {
+  display: block;
+  width: 95%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form-button:hover {
+  background-color: #0056b3;
+}
+
+.error {
+  color: #ff0000;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.left-column {
+  flex: 1;
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex; /* Use flex to arrange label and input side by side */
+  flex-direction: column; /* Stack label and input vertically */
+}
+
+.right-column {
+  flex: 1;
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex; /* Use flex to arrange title and value side by side */
+  flex-direction: column; /* Stack title and value vertically */
+}
+
+
+/* WorkoutDetails.css */
+
+.workout-details {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  width: 60%;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+  float: left;
+}
+
+.workout-title {
+  color: green;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.workout-detail {
+  font-size: 16px;
+  margin-bottom: 5px;
+  color: #555;
+}
